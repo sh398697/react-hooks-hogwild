@@ -9,8 +9,8 @@ function HogList ({hogs}) {
                 key={hogObject.name}
                 name={hogObject.name}
                 specialty={hogObject.specialty}
-                weight={hogObject.weight}
                 greased={hogObject.greased}
+                weight={hogObject.weight}
                 image={hogObject.image}
             />);
         });
